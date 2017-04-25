@@ -332,6 +332,7 @@ namespace Biltegi2
                     Descripcion = spinner1.SelectedItem.ToString()
                 };
                 _producto.GetProducto();
+                _elemento.Descripcion = txtEdit.Text;
                 _elemento.IdProducto = _producto.IdProducto;
                 _elemento.CodigoBarras = txtCodigo.Text;
                 _elemento.Update();
