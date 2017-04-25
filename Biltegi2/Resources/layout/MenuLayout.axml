@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="fill_parent"
+    android:background="#ffa00000"
+    android:id="@+id/FlyOutMenu"
+    android:padding="4dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="#ffa00000"
+        android:id="@+id/layoutpadre"
+        android:padding="4dp">
+        <TextView
+            android:text="@string/CATEGORIAS"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:textColor="#ffc1c1c1"
+            android:padding="4dp" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:id="@+id/view1"
+            android:background="#ffc1c1c1"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layoutCategorias"
+            android:layout_margin="8dp">
+            <TextView
+                android:text="@string/TODOS"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtTodasCategorias"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:textColor="#fff8f8f8" />
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:id="@+id/view1"
+        android:background="#ffc1c1c1"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutAcciones"
+        android:layout_margin="8dp">
+        <View
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/addGroupButton"
+            android:layout_margin="4dp"
+            android:background="@drawable/ic_add_box_white_24dp" />
+        <TextView
+            android:text="@string/ANADIR"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtAnadir"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:textColor="#fff8f8f8" />
+    </LinearLayout>
+</LinearLayout>

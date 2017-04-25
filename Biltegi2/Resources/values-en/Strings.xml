@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="Hello">Hello World, Click Me!</string>
+  <string name="ApplicationName">Biltegi2</string>
+  <string name="CATEGORIAS">Groups</string>
+  <string name="CATEGORIA">Group</string>
+  <string name="PRODUCTO">Product</string>
+  <string name="TODOS">All Groups</string>
+  <string name="CODIGOBARRAS">BARCODE</string>
+  <string name="NOCODIGOBARRAS">No available barcode</string>
+  <string name="ANADIR">Add</string>
+  <string name="MENSAJE_ANADIR_GRUPO">Enter the name of the group you want to insert</string>
+  <string name="MENSAJE_BORRAR_GRUPO">You are going to remove {0}</string>
+  <string name="MENSAJE_ANADIR_PRODUCTO">Enter the name of the product you want to insert</string>
+  <string name="MENSAJE_BORRAR_PRODUCTO">You are going to remove {0}</string>
+  <string name="MENSAJE_ANADIR_ELEMENTO">Enter the name of the item you want to insert</string>
+  <string name="MENSAJE_BORRAR_ELEMENTO">You are going to remove {0}</string>
+  <string name="MENSAJE_BORRAR_EXISTENCIA">Do you want to remove the entry?</string>
+  <string name="MENSAJE_EXISTE_PRODUCTO">There is allready a product with this name</string>
+  <string name="MENSAJE_EXISTE_ELEMENTO">There is allready an item with this name</string>
+  <string name="MENSAJE_BOTON_OK">OK</string>
+  <string name="MENSAJE_BOTON_CANCEL">Cancel</string>
+  <string name="MENSAJE_SCAN">Please, set focus on bar code</string>
+  <string name="MENSAJE_NO_SCAN">There is no item with this barcode, do you want to create it?</string>
+  <string name="ALERTA_DESCRIPCION_VACIA">The description can not be empty</string>
+  
+</resources>
